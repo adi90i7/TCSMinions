@@ -47,15 +47,5 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
-$(document).ready(function() {
-	
-  setTimeout(function() {
-    	window.location.href = "index2.html";
-}, 1000); 
-	$('#example').show();
-$('.sp-refresh').click(function() {
-    location.reload();
-});
 
-});
 
