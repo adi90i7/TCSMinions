@@ -7,7 +7,8 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 	  <link type="text/css" rel="stylesheet" href="css/animate.css"  media="screen,projection"/>
 	  <link type="text/css" rel="stylesheet" href="css/index.css"  media="screen,projection"/>
-	 <link href="css/jquery.bxslider.css" rel="stylesheet" />
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	  <link href="css/jquery.bxslider.css" rel="stylesheet" />
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	    <!-- cordova script (this will be a 404 during development) -->
@@ -25,18 +26,44 @@
 	  <script src="js/jquery.bxslider.min.js"></script>
 	  
 		<div style="height:30px"></div>
-		<div style="border-top:5px solid #ef4f69;">
+		<div >
 		
 			<div class="chip" style="margin-left:2px;">Best Offer</div>
 			<div class="chip">Refine Your Search</div>
 		</div> 
 		<div class="bestoffer">
 		<!-- Best Offer-->
-		<div class="slider2">
-		<div class="slide"><p>Hi</p></div>
-		<div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
-		<div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
-		<div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
+	<div class="slider2">
+		<div class="slide"  id="s1">
+		<!--Flight Information -->
+		
+			<div class="row" >
+			<div class="eurocircle"> &#8364;500</div> 
+			<div class="col s12 "><h3 class="flighthead">AMS &nbsp;<i class="fa fa-fighter-jet fa-1x"></i> HUM</h3></div>
+			<div class="col s6">0n 12:30 Wed 2015</div>
+			<div class="col s6">Flight: KL 1247</div>
+			<div>&nbsp;</div>
+			<div  class="col s12 ">Operated by KLM</div>
+			
+			</div>
+		
+		<!--Flight Information -->
+		</div>
+		<div class="slide">
+		<!--Flight Information -->
+		
+			<div class="row" >
+			<div class="eurocircle"> &#8364;100</div> 
+			<div class="col s12 "><h3 class="flighthead">AMS &nbsp;<i class="fa fa-fighter-jet fa-1x"></i> HUM</h3></div>
+			<div class="col s6">0n 12:30 Wed 2015</div>
+			<div class="col s6">Flight: KL 1247</div>
+			<div>&nbsp;</div>
+			<div  class="col s12 ">Operated by KLM</div>
+			</div>
+		
+		<!--Flight Information -->
+		</div>
+		
   
 </div>
 <div class="slider2">
@@ -57,11 +84,14 @@
 	  <script>
 	$(document).ready(function(){
   $('.slider2').bxSlider({
-    slideWidth: 350,
+    slideWidth: 365,
     minSlides: 1,
     maxSlides: 1,
     slideMargin: 10
   });
+  $(".bx-wrapper").click(function() { 
+  $(".bestoffer.bx-wrapper .bx-viewport ").css('border','1px solid #06EB31');
+});
   
 });
 		</script>

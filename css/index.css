@@ -6,15 +6,17 @@ body{ background-color:#ef4f69; padding-top:20px;}
 .sp-refresh{ height:50px;  position:absolute; bottom:0; width:100%; display:block;}
 #calendar{width:90%; background-color:#F5D561;}
 .chip{    display: inline-block;
-    height: 32px;
+    height: 40px;
     font-size: 13px;
     font-weight: 500;
     color: rgba(0,0,0,0.6);
-    line-height: 32px;
+    line-height: 40px;
     border-radius:1px;
     background-color: #ef4f69;
     width: 49%;
-    text-align: center; margin-top:5px; color:#fff;}
+    text-align: center; margin-top:5px; color:#fff; font-size:18px}
 	
 .refine{display:block;}
-.bestoffer{ margin-top:10px; height:300px;}
+.bestoffer{ margin-top:10px; height:300px; margin-left:10px; }
+.eurocircle{border:1px solid #ccc; border-radius:50px; width:50px; height:50px; text-align:center; line-height:50px; background-color:#ef4f69; position:absolute; right:0; color:#fff;}
+.flighthead{font-family:20px !important; color:#ef4f69;}

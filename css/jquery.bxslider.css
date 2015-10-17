@@ -75,10 +75,12 @@
 	color: #666;
 	padding-top: 20px;
 }
-
+.bx-wrapper, .bx-viewport {
+    height: 180px !important; //provide height of slider
+}
 .bx-wrapper .bx-pager .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
-	display: inline-block;
+	display: none;
 	*zoom: 1;
 	*display: inline;
 }
@@ -122,6 +124,7 @@
 }
 
 .bx-wrapper .bx-controls-direction a {
+display:none;
 	position: absolute;
 	top: 50%;
 	margin-top: -16px;
