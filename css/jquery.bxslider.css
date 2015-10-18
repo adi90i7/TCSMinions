@@ -16,9 +16,10 @@
 
 .bx-wrapper {
 	position: relative;
-	margin: 0 auto 60px;
+	margin: 0 auto 40px;
 	padding: 0;
 	*zoom: 1;
+	margin-top:10px
 }
 
 .bx-wrapper ../img {
@@ -80,7 +81,7 @@
 }
 .bx-wrapper .bx-pager .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
-	display: none;
+	display: inline-block;
 	*zoom: 1;
 	*display: inline;
 }
@@ -100,7 +101,7 @@
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #000;
+	background: #ef4f69;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */

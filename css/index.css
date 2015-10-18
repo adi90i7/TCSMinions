@@ -17,6 +17,15 @@ body{ background-color:#ef4f69; padding-top:20px;}
     text-align: center; margin-top:5px; color:#fff; font-size:18px}
 	
 .refine{display:block;}
-.bestoffer{ margin-top:10px; height:300px; margin-left:10px; }
+.bestoffer{ margin-top:10px;  margin-left:10px; }
 .eurocircle{border:1px solid #ccc; border-radius:50px; width:50px; height:50px; text-align:center; line-height:50px; background-color:#ef4f69; position:absolute; right:20px; color:#fff;}
-.flighthead{font-family:20px !important; color:#ef4f69;}
+.flighthead{font-family:20px !important; color:#ef4f69; margin:0px;}
+.cc{
+    position: relative;
+    display: inline-block;
+    background: url("../img/carriers-sprite.png") no-repeat 10px 32px;
+    width: 78px;
+    height: 20px;
+    text-indent: -9999px;
+    margin-right: 5px;    background-position: -120px 0; top:-40px; left:50px;}
+#offer{background-color:#fff; border-left:1px solid #ef4f69; border-right:1px solid #ef4f69;border-top:1px solid #ef4f69; color:#2a2a2a}

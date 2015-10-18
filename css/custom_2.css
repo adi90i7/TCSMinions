@@ -184,6 +184,7 @@
 	padding: 30px;
 	background: #f6f6f6;
 	box-shadow: inset 0 1px rgba(255,255,255,0.8);
+	padding-bottom:0px;
 }
 
 .fc-calendar .fc-head {
