@@ -31,10 +31,12 @@
 			<div class="chip" style="margin-left:2px;">Best Offer</div>
 			<div class="chip">Refine Your Search</div>
 		</div> 
-		<div class="bestoffer">
+		
 		<!-- Best Offer-->
-	<div class="slider2">
-		<div class="slide"  id="s1">
+		<div class="bestoffer">
+		<h5>Flight Information</h5>
+		<ul id="slider1">
+		<li>
 		<!--Flight Information -->
 		
 			<div class="row" >
@@ -48,32 +50,44 @@
 			</div>
 		
 		<!--Flight Information -->
-		</div>
-		<div class="slide">
+		</li>
+		<li>
 		<!--Flight Information -->
 		
 			<div class="row" >
-			<div class="eurocircle"> &#8364;100</div> 
+			<div class="eurocircle"> &#8364;500</div> 
 			<div class="col s12 "><h3 class="flighthead">AMS &nbsp;<i class="fa fa-fighter-jet fa-1x"></i> HUM</h3></div>
 			<div class="col s6">0n 12:30 Wed 2015</div>
 			<div class="col s6">Flight: KL 1247</div>
 			<div>&nbsp;</div>
 			<div  class="col s12 ">Operated by KLM</div>
+			
 			</div>
 		
 		<!--Flight Information -->
-		</div>
+		</li>
+		</ul>
+
+		<h5>Hotel Information</h5>
+		<ul id="slider2">
+			<li>
+			<!--Hotel Information -->
 		
-  
-</div>
-<div class="slider2">
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar1"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar2"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar4"></div>
-  
-</div>
-		</div>
+			<div class="row" >
+			<div class="eurocircle"> &#8364;500</div> 
+			<div class="col s12 "><h5 class="flighthead">UR Palacio Avenida</h5></div>
+			<div>&nbsp;</div>
+			<div  class="col s12 ">222790, bastuched Germany </div>
+			
+			</div>
+		
+		<!--HotelInformation -->
+			</li>
+		
+		</ul>
+		
+		
+		</div>		
 		<!-- Best Offer -->
 		<!-- Refine -->
 		<div>
@@ -83,14 +97,24 @@
 		<!-- Refine -->
 	  <script>
 	$(document).ready(function(){
-  $('.slider2').bxSlider({
-    slideWidth: 365,
+
+  
+  $('#slider1').bxSlider({
+   slideWidth: 365,
     minSlides: 1,
     maxSlides: 1,
     slideMargin: 10
-  });
+});
+
+$('#slider2').bxSlider({
+   slideWidth: 365,
+    minSlides: 1,
+    maxSlides: 1,
+    slideMargin: 10
+});
+  
   $(".bx-wrapper").click(function() { 
-  $(".bestoffer.bx-wrapper .bx-viewport ").css('border','1px solid #06EB31');
+  $(".bx-wrapper .bx-viewport ").css('border','1px solid #06EB31');
 });
   
 });

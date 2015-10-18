@@ -18,5 +18,5 @@ body{ background-color:#ef4f69; padding-top:20px;}
 	
 .refine{display:block;}
 .bestoffer{ margin-top:10px; height:300px; margin-left:10px; }
-.eurocircle{border:1px solid #ccc; border-radius:50px; width:50px; height:50px; text-align:center; line-height:50px; background-color:#ef4f69; position:absolute; right:0; color:#fff;}
+.eurocircle{border:1px solid #ccc; border-radius:50px; width:50px; height:50px; text-align:center; line-height:50px; background-color:#ef4f69; position:absolute; right:20px; color:#fff;}
 .flighthead{font-family:20px !important; color:#ef4f69;}
